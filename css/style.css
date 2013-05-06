@@ -1,0 +1,72 @@
+body {
+	font-family: Tahoma;
+	font-size: 13px;
+	margin: 0;
+	padding: 0;
+	color: #333;
+}
+a {
+	color: #222;
+	font-weight: bold;
+	text-decoration: none;
+}
+#bar {
+	background-color: #EEE;
+	border-top: 2px solid #DDD;
+	height: 30px;
+}
+#bar .wrap {
+	width: 1000px;
+	margin: auto;
+}
+#bar .left {
+	float: left;
+	padding: 6px;
+}
+#bar .right {
+	float: right;
+	padding: 6px;
+}
+#main {
+	margin: 20px auto 0 auto;
+	width: 1000px;
+}
+table.week {
+	width: 100%;
+	border-collapse: collapse;
+}
+table.week td, table.week th {
+	padding: 5px 2px;
+	color: #333;
+}
+
+table.week tr.even {
+	background: #F6F6F6;
+}
+
+table.week th.hour {
+	font-size: 10px;
+	text-align: center;
+}
+table.week td.day {
+	font-size: 11px;
+	font-weight: bold;
+	text-align: right;
+	padding: 0 15px;
+}
+table.week td.spacing {
+	width: 30px;
+}
+table.week td.time {
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	border-left: 1px solid #DDD;
+	border-right: 1px solid #DDD;
+}
+input[type="submit"] {
+	background: #555;
+	border: 0;
+	padding: 3px 10px;
+	color: #FFF;
+}
